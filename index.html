@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Composer 2</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  	<nav class="navbar navbar-findcond navbar-fixed-top">
+    <div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">Editing MapStory: The American Civil War (Chapter 1 of 6)</a>
+		</div>
+		<div class="collapse navbar-collapse" id="navbar">
+			<ul class="nav navbar-nav navbar-right">
+				<li>
+					<a href="#" class="btn" role="button">Save</a>
+				</li>
+				<li>
+					<a href="#" class="btn" role="button">Preview</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+    <div class="container" style="padding-top:50px">
+    	<div class="row">
+    		<div class="col-sm-2" style="padding-right:0">
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-pills nav-stacked" role="tablist" style="height:700px;overflow-y:scroll">
+    <li role="presentation" class="active"><a href="#chapter1" aria-controls="chapter1" role="tab" data-toggle="tab"><h5>Chapter 1</h5><small>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</small></a></li>
+    <li role="presentation"><a href="#chapter2" aria-controls="chapter2" role="tab" data-toggle="tab"><h5>Chapter 2</h5><small>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</small></a></li>
+    <li role="presentation"><a href="#chapter3" aria-controls="chapter3" role="tab" data-toggle="tab"><h5>Chapter 3</h5><small>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</small></a></li>
+    <li role="presentation"><a href="#chapter4" aria-controls="chapter4" role="tab" data-toggle="tab"><h5>Chapter 4</h5><small>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</small></a></li>
+    <li role="presentation"><a href="#chapter5" aria-controls="chapter5" role="tab" data-toggle="tab"><h5>Chapter 5</h5><small>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</small></a></li>
+    <li role="presentation"><a href="#chapter6" aria-controls="chapter6" role="tab" data-toggle="tab"><h5>Chapter 6</h5><small>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</small></a></li>
+    <li role="presentation"><a href="#chapternew" aria-controls="chapternew" role="tab" data-toggle="tab"><h5>Add New Chapter</h5><small>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</small></a></li>
+  </ul>
+  </div>
+  
+  <div class="col-sm-10" style="padding:10px 0">
+	
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="chapter1">
+    	<div class="tabbable-panel" style="padding:0">
+				<div class="tabbable-line" style="padding:0">
+					<ul class="nav nav-tabs">
+						<li class="active">
+							<a href="#tab_default_1" data-toggle="tab">
+							Layers </a>
+						</li>
+						<li>
+							<a href="#tab_default_2" data-toggle="tab">
+							Boxes </a>
+						</li>
+						<li>
+							<a href="#tab_default_3" data-toggle="tab">
+							Pins </a>
+						</li>
+					</ul>
+					<div class="tab-content" style="margin:0;padding:0">
+						<iframe style="position:absolute; z-index:0" width="100%" height="600" src="http://www.maps.ie/create-google-map/map.php?width=100%&amp;height=600&amp;hl=en&amp;q=washington%20dc+(Washington%20DC)&amp;ie=UTF8&amp;t=&amp;z=14&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+						<div class="tab-pane active" id="tab_default_1" style="padding:10px">
+							<div class="container">
+    <div class="row">
+        <div class="col-sm-3 col-md-3">
+            <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Add a Layer</a>
+                        </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse in">
+                        <div class="panel-body">
+                            <table class="table">
+                                <tr>
+                                    <td>
+                                        <span class="glyphicon glyphicon-upload text-primary"></span> My Layers&nbsp; <span class="badge">42</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="glyphicon glyphicon-flash text-success"></span> Upload a new storylayer
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">StoryLayer 1</li></a>
+                        </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <table class="table">
+                                <tr>
+                                    <td>
+                                        Edit this layer
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Styling
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Edit attributes
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        View history
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Styling
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+						</div>
+						<div class="tab-pane" id="tab_default_2">
+							<p>
+								Howdy, I'm in Tab 2.
+							</p>
+							<p>
+								Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation.
+							</p>
+							<p>
+								<a class="btn btn-warning" href="http://j.mp/metronictheme" target="_blank">
+									Click for more features...
+								</a>
+							</p>
+						</div>
+						<div class="tab-pane" id="tab_default_3">
+							<p>
+								Howdy, I'm in Tab 3.
+							</p>
+							<p>
+								Duis autem vel eum iriure dolor in hendrerit in vulputate. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat
+							</p>
+							<p>
+								<a class="btn btn-info" href="http://j.mp/metronictheme" target="_blank">
+									Learn more...
+								</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="chapter2">
+    	<div class="tabbable-panel" style="padding:0">
+				<div class="tabbable-line" style="padding:0">
+					<ul class="nav nav-tabs">
+						<li class="active">
+							<a href="#tab_default_1" data-toggle="tab">
+							Layers </a>
+						</li>
+						<li>
+							<a href="#tab_default_2" data-toggle="tab">
+							Boxes </a>
+						</li>
+						<li>
+							<a href="#tab_default_3" data-toggle="tab">
+							Pins </a>
+						</li>
+					</ul>
+					<div class="tab-content" style="margin:0;padding:0">
+						<iframe style="position:absolute; z-index:0" width="100%" height="600" src="http://www.maps.ie/create-google-map/map.php?width=100%&amp;height=600&amp;hl=en&amp;q=nyc+(NYC)&amp;ie=UTF8&amp;t=&amp;z=12&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+						<div class="tab-pane active" id="tab_default_1" style="padding:10px">
+							<div class="container">
+    <div class="row">
+        <div class="col-sm-3 col-md-3">
+            <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Add a Layer</a>
+                        </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse in">
+                        <div class="panel-body">
+                            <table class="table">
+                                <tr>
+                                    <td>
+                                        <span class="glyphicon glyphicon-upload text-primary"></span> My Layers&nbsp; <span class="badge">42</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="glyphicon glyphicon-flash text-success"></span> Upload a new storylayer
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">StoryLayer 1</li></a>
+                        </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <table class="table">
+                                <tr>
+                                    <td>
+                                        Edit this layer
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Styling
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Edit attributes
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        View history
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Styling
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+						</div>
+						<div class="tab-pane" id="tab_default_2">
+							<p>
+								Howdy, I'm in Tab 2.
+							</p>
+							<p>
+								Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation.
+							</p>
+							<p>
+								<a class="btn btn-warning" href="http://j.mp/metronictheme" target="_blank">
+									Click for more features...
+								</a>
+							</p>
+						</div>
+						<div class="tab-pane" id="tab_default_3">
+							<p>
+								Howdy, I'm in Tab 3.
+							</p>
+							<p>
+								Duis autem vel eum iriure dolor in hendrerit in vulputate. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat
+							</p>
+							<p>
+								<a class="btn btn-info" href="http://j.mp/metronictheme" target="_blank">
+									Learn more...
+								</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="chapter3">
+    	<div class="tabbable-panel" style="padding:0">
+				<div class="tabbable-line" style="padding:0">
+					<ul class="nav nav-tabs">
+						<li class="active">
+							<a href="#tab_default_1" data-toggle="tab">
+							Layers </a>
+						</li>
+						<li>
+							<a href="#tab_default_2" data-toggle="tab">
+							Boxes </a>
+						</li>
+						<li>
+							<a href="#tab_default_3" data-toggle="tab">
+							Pins </a>
+						</li>
+					</ul>
+					<div class="tab-content" style="margin:0;padding:0">
+						<iframe style="position:absolute; z-index:0" width="100%" height="600" src="http://www.maps.ie/create-google-map/map.php?width=100%&amp;height=600&amp;hl=en&amp;q=san%20francisco+(SAN%20FRANCISCO)&amp;ie=UTF8&amp;t=&amp;z=12&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+						<div class="tab-pane active" id="tab_default_1" style="padding:10px">
+							<div class="container">
+    <div class="row">
+        <div class="col-sm-3 col-md-3">
+            <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Add a Layer</a>
+                        </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse in">
+                        <div class="panel-body">
+                            <table class="table">
+                                <tr>
+                                    <td>
+                                        <span class="glyphicon glyphicon-upload text-primary"></span> My Layers&nbsp; <span class="badge">42</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="glyphicon glyphicon-flash text-success"></span> Upload a new storylayer
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">StoryLayer 1</li></a>
+                        </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <table class="table">
+                                <tr>
+                                    <td>
+                                        Edit this layer
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Styling
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Edit attributes
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        View history
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Styling
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+						</div>
+						<div class="tab-pane" id="tab_default_2">
+							<p>
+								Howdy, I'm in Tab 2.
+							</p>
+							<p>
+								Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation.
+							</p>
+							<p>
+								<a class="btn btn-warning" href="http://j.mp/metronictheme" target="_blank">
+									Click for more features...
+								</a>
+							</p>
+						</div>
+						<div class="tab-pane" id="tab_default_3">
+							<p>
+								Howdy, I'm in Tab 3.
+							</p>
+							<p>
+								Duis autem vel eum iriure dolor in hendrerit in vulputate. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat
+							</p>
+							<p>
+								<a class="btn btn-info" href="http://j.mp/metronictheme" target="_blank">
+									Learn more...
+								</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="chapter4">weh</div>
+  </div>
+
+</div>
+    		</div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
