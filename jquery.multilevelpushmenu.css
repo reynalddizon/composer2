@@ -14,7 +14,7 @@
 	background: whitesmoke;
 	width: auto;
 	min-height: 100%;
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 1em;
 	zoom: 1;
 }
@@ -42,11 +42,13 @@
 }
 
 .multilevelpushmenu_wrapper h2 {
-	font-size: 1.5em;
-	line-height: 1em;
+	font-size: 24px;
+	line-height: 26px;
 	font-weight: bold;
 	color: black;
-	padding: 0 .4em 0 .4em;
+	padding: 1px;
+	padding-left: 10px;
+	margin: 20px 5px;
 }
 
 .multilevelpushmenu_wrapper ul {
@@ -58,7 +60,7 @@
 .multilevelpushmenu_wrapper li {
 	cursor: pointer;
 	border-top: 1px solid darkgray;
-	padding: .4em .4em .4em .4em;
+	padding: 4px;
 }
 
 .multilevelpushmenu_wrapper li:last-child {
@@ -73,9 +75,9 @@
 	display: block;
 	outline: none;
 	overflow: hidden;
-	font-size: 1.5em;
-	line-height: 1em;
-	padding: .2em .2em;
+	font-size: 18px;
+	line-height: 20px;
+	padding: 4px;
 	text-decoration: none;
 	color: black;
 }
@@ -86,7 +88,7 @@
 
 .multilevelpushmenu_wrapper .backItemClass {
 	display: block;
-	padding: .4em .4em .4em .4em;
+	padding: 4px;
 	background: gray;
 	border-top: 1px solid darkgray;
 }
